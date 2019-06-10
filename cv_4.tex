@@ -1,0 +1,227 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+\usepackage{fontawesome}
+\usepackage{xcolor}
+
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS 
+%----------------------------------------------------------------------------------------
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\makeatletter
+\patchcmd{\@sectioncolor}{\color}{\mdseries\color}{}{}
+\makeatother
+\documentclass{resume} % Use the custom resume.cls style 
+\usepackage{fontawesome}
+\usepackage{xcolor}
+\usepackage[dvipsnames]{xcolor}
+\usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#}}
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{Sami Arja}
+
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional) 
+\address{\textbf{Software Engineer}\hspace{0.5cm}\textbf{Research Assistant}\hspace{0.5cm}\textbf{ML Developer}}
+\address{\faMobilePhone \hspace{0.1cm} 0424403034 \hspace{0.5cm} \faEnvelope \hspace{0.1cm} sami.arja@gmail.com \hspace{0.5cm} \faGithub \hspace{0.1cm} samiarja \hspace{0.5cm} \faLinkedin \hspace{0.1cm} samiarja \hspace{0.5cm} \faStackOverflow \hspace{0.1cm} samiarja} % Your phone number and email
+\begin{document}  
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Bachelor of Engineering in Robotics and Mechatronics (Honours)} \hfill {February 2015 - June 2019}
+\\ 
+ Western Sydney University, Kingswood 
+\\
+Minor in Computer Aided Design and Biomedical Engineering
+
+{\bf Diploma of Engineering \faGraduationCap} \hfill {February 2014 - December 2015}
+\\ 
+ Western Sydney University, Nirimba 
+
+
+
+\end{rSection} 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{skills and INTERESTS}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
+Interests & Machine Learning, Computer vision, Electronics Systems, Biomedical Devices,\\& Neural Networks, Statistics, Data science, Cloud engineering, Robotics, \\& 3D Modeling and Simulation\\
+
+Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altium Designer, Jupyter Lab, AWS, MS-excel, Google Documents and \LaTeX\\      
+ 
+\end{tabular}   
+
+\end{rSection}
+
+%-------------------------------------------------------------------------------
+
+%	INTERNSHIP/TRAININGS 
+%----------------------------------------------------------------------------------------
+\begin{rSection}{EXPERIENCE}
+
+\begin{rSubsection}{Software Engineer Intern} {May 2019 - Present}{\faInstitution Nautitech Mining Systems Pty Ltd}{}
+\item Linux based web and desktop application development with C\# for Thermal Cameras.
+\item Database design and development using MS SQL Server.
+\item Application development for mobile devices on Android, and IOS.
+\item Video application development using raw and compressed video protocols such as H.264 and GIGe.
+\item Application development using OpenCV and other computer vision framework.
+
+\end{rSubsection}
+
+\begin{rSubsection}{Lab Assistant - Electrical and Electronics} {February 2019 - Present}{\faInstitution Western Sydney University, Engineering \& Industrial Design Cluster}{}
+\item Assist technical officers across the electrical, electronics, Mechatronics \& Mechanical team.
+\item Assist in lab preparation for classes, basic maintenance duties, moving and managing equipment's.
+\item Supporting students in running undergrad lab equipment's.
+\end{rSubsection}
+
+\begin{rSubsection}{Undergraduate Research Scholar} {November 2018 - May 2019}{\faInstitution The MARCS Institute Brain, Behavior and Development}{}
+\item Project: Characterisation of morphic sensors for body volume applications.
+\item Supervisors: Dr. Gaetano Garguilo and Dr. Paul Breen.
+\item Characterizations of electro-resistive fabrics band to be used in measuring human blood and respiration rate.
+\item Implement an accurate data acquisition system on the CC2460R2 module which helps in recognizing patterns for each band during testing. 
+\item Using C and Matlab to support the data acquistion, Data analysis and Data visualization.
+\item 3D modelling an optimized version of the expansion/contraction machine.
+\item Paper Title: "Characterization of Morphic Sensors for body volume and shape applications".
+\end{rSubsection}
+
+\begin{rSubsection}{Research Assistant} {May 2018 - Present}{\faInstitution CSIRO's Data61}{}
+\item Conduct an online research analysis to understand more about business.
+\item Review, edit and enter data about Australian businesses providing Environmental Goods and Services.    
+\item Classify these Data into specific categories, for further analysis.
+\item Use Pandas and Numpy to merge old and new data effectively without losing any entry and perform Data cleaning and Data Munging.
+\item Update data already collected against primary sources, as well as identifying and recording data about other relevant organizations.
+\end{rSubsection}
+
+\begin{rSubsection}{Robotics Class Instructor} {May 2018 - Present}{\faInstitution RobotZilla - Baulkhaum Hill Public School}{}
+\item  Teach kids the principle of coding on Scratch Junior - MIT App Inventor, as well as web development on Python - HTML - CSS - JavaScript.
+\item Help Kids to build and program their own Lego Robot.
+\item Design robotics kit to support the annual curriculum, such as Robotics arm, quadruped robot and Robotics arm.
+\item Platforms used are Scratch, MIT App Inventor, Arduino and Lego Mindstorm.
+\end{rSubsection}
+
+\begin{rSubsection}{Robotics Engineer Intern} {October 2017 - January 2018}{\faInstitution Lab38 - Western Sydney University}{}
+\item Design a CNC drawing machine using mechanical linear rail to support a frictionless movement.
+\item Program the electrical system of the machine to convert any input (image, text) to G-code.
+\item Laser cut all parts and components using Corel software, and Solidworks as main program for 3D modelling.
+\end{rSubsection}
+
+\begin{rSubsection}{Electronics Engineer Intern} {December 2017 - March 2018}{\faInstitution Mostyn Enterprises}{}
+\item  Design Circuit boards on Altium Designer.
+\item Generate BOM for each board.
+\item Design RF(Radio Frequency) Loop Antenna \& bias tee.
+\end{rSubsection}
+
+\end{rSection}  
+%-------------------------------------------------------------------------------
+
+%	PROJECTS
+
+\begin{rSection}{PROJECTS}
+
+\begin{rSubsection}{Deep Convolutional Neural Network for Spatial and Temporal 
+\\Human Action Recognition} {August 2018 - Present}{Thesis - Honour project}{}
+
+\item Develop a software to extract spatial and temporal features from trimmed video on KTH datasets.
+\item Build 2 neural network architecture and compare their performance against the state of the art benchmark results.
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Fully Autonomous Mobile Robotics system based on Neural Network}{August 2018 - Present}{Major final year Capstone project}{} 
+\item Model a mobile robot platform that run on raspberry pi and arduino uno and hokuyo Lidar.
+\item Develop a software based on convolutional neural network architecture that detect and recognize traffic light and objects in real time.   
+
+\end{rSubsection}
+
+%-------------------------------------------------
+
+
+\begin{rSubsection}{RobotCup SSL(Small size League)}{November 2017}{Western Sydney University Unlimited Robotics}
+
+\item Design and build a robotics soccer team consists of 11 mobile robots.
+\item Use industrial camera to detect each robot pattern and teach the robot to play as team.    
+
+\end{rSubsection}
+
+%-------------------------------------------------- 
+
+\begin{rSubsection}{NI (National Instruments) Autonomous Robotics Competition}{December 2017 – September 2018}{Western Sydney University Unlimited Robotics}{}    
+
+\item Integrate sensors and actuators into a smart mechatronic system. 
+\item Develop an algorithm to perform image processing and motion planning
+\item Develop navigation and mapping algorithm navigation through tracking features or landmarks within the track.
+
+\end{rSubsection} 
+
+\end{rSection} 
+
+%---------------------------------------------------------------------------
+
+ 
+ %-----------------------------------------------------------------------------
+ % POSITION OF RESPONSIBILITY
+ %-----------------------------------------------------------------------------
+  
+\begin{rSection}{POSITION OF RESPONSIBILITY}
+
+\begin{rSubsection}{Baxter Robot Operator}{February 2018 - Present}{The LaunchPad}{}              
+\item Operate and present Baxter Robot in various event: CatalystWest, Semi-permenant, CeBIT.
+\end{rSubsection}  
+
+%------------------------------------------------
+
+\begin{rSubsection}{Engineer Team Member} {August 2017 - Present}{Robotics Club - Western Sydney University}{} 
+\item Lead in Mechanical work of Robotics club, working mostly with CAD and Hardware systems.
+\item Active member working to develop various robots of different concepts and configurations.    
+\end{rSubsection}
+
+\end{rSection}
+  
+
+%--------------------------------------------------------------------------------------
+% Extra-Cirrucular
+%--------------------------------------------------------------------------------------
+
+\begin{rSection}{Achievements} \itemsep -2pt   
+
+\begin{itemize}
+ 
+\item \faTrophy \hspace{0.1cm} Top 5 at \textbf{NIARC 2018} under the supervision of Dr Gu Fang. \hfill March 2018 
+\item \faTrophy \hspace{0.1cm} Top 25\% at \textbf{Santander Value Prediction Challenge}, a Machine
+\\Learning competition hosted by \textbf{Kaggle}.   \hfill May 2018  
+\item Leading workshop on \textbf{Introduction to Robotics and Lego Mindstorm}.
+\\at Western Sydney University \hfill October 2018 
+  
+\end{itemize}  
+
+
+\end{rSection} 
+
+%---------------------------------------------------------------------------------
+\end{document}
