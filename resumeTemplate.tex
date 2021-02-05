@@ -10,10 +10,10 @@
 % Trey Hunner (http://www.treyhunner.com/)
 \usepackage[utf8]{inputenc}
 \usepackage[english]{babel}
-
+\usepackage{hyperref}
 \usepackage{fontawesome}
 \usepackage{xcolor}
-
+\usepackage{hyperref}
 % Important note:
 % This template requires the resume.cls file to be in the same directory as the
 % .tex file. The resume.cls file provides the resume style used for structuring the
@@ -33,6 +33,8 @@
 \usepackage{fontawesome}
 \usepackage{xcolor}
 \usepackage[dvipsnames]{xcolor}
+\usepackage{bibentry}
+\usepackage{hyperref} 
 \usepackage[left=0.4 in,top=0.3 in,right=0.4 in,bottom=0.3in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#}}
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
@@ -41,22 +43,40 @@
 
 %\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional) 
 \address{\textbf{Software Engineer}\hspace{0.5cm}\textbf{Research Assistant}\hspace{0.5cm}\textbf{ML Developer}}
-\address{\faMobilePhone \hspace{0.1cm} 0424403034 \hspace{0.5cm} \faEnvelope \hspace{0.1cm} sami.arja@gmail.com \hspace{0.5cm} \faGithub \hspace{0.1cm} samiarja \hspace{0.5cm} \faLinkedin \hspace{0.1cm} samiarja \hspace{0.5cm} \faStackOverflow \hspace{0.1cm} samiarja} % Your phone number and email
-\begin{document}  
+\address{\faMobilePhone \hspace{0.1cm} +61 424403034 \hspace{0.5cm} \faEnvelope \hspace{0.1cm} sami.arja@gmail.com \hspace{0.5cm} \faGithub \hspace{0.1cm} samiarja \hspace{0.5cm} \faLinkedin \hspace{0.1cm} samiarja} % Your phone number and email
 
+\begin{document}  
+\nobibliography{ref}
+\bibliographystyle{unsrt}
 %----------------------------------------------------------------------------------------
 %	EDUCATION SECTION
 %----------------------------------------------------------------------------------------
 
 \begin{rSection}{Education}
 
-{\bf Bachelor of Engineering in Robotics and Mechatronics (Honours)} \hfill {February 2015 - June 2019}
+
+{\bf Master of Philosophy in Neuromorphic Engineering (Scholarship)} \hfill {September 2019 - September 2021}
+\\
+\textbf{Thesis:} Neuromorphic Perception in Greenhouse Technology using 
+\\
+Event-based Vision Sensors
+\\
+International Center of Neuromorphic Systems (ICNS)
+\\
+The MARCS Institute
+\\
+ Western Sydney University, Werrington 
+
+{\bf Bachelor of Engineering in Robotics and Mechatronics (Honours) \faGraduationCap} \hfill {February 2015 - June 2019}
+\\
+\textbf{Thesis:} Deep Convolutional Neural Network for Human Activity Recognition
 \\ 
  Western Sydney University, Kingswood 
 \\
-Minor in Computer Aided Design and Biomedical Engineering
+Honour Class II Division I
 
-{\bf Diploma of Engineering \faGraduationCap} \hfill {February 2014 - December 2015}
+
+{\bf Diploma in Engineering \faGraduationCap} \hfill {February 2014 - December 2015}
 \\ 
  Western Sydney University, Nirimba 
 
@@ -70,15 +90,36 @@ Minor in Computer Aided Design and Biomedical Engineering
 
 \begin{rSection}{skills and INTERESTS}
 
-\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }  
-Interests & Machine Learning, Computer vision, Electronics Systems, Biomedical Devices,\\& Neural Networks, Statistics, Data science, Cloud engineering, Robotics, \\& 3D Modeling and Simulation\\
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l } 
 
-Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altium Designer, Jupyter Lab, AWS, MS-excel, Google Documents and \LaTeX\\      
+Programming Language & Python, Javascript, C\#/C++, Matlab, VB, SQL\\
+
+Software & Solidworks, SW Visualizer, ROS, Altium Designer, Jupyter Lab/Notebook, AWS/Azure, \\& MS-excel, Google Docs and \LaTeX\\  
+
+Interests & Machine Learning, Computer vision, Electronics Systems, Biomedical Devices,\\& Neural Networks, Statistics, Data science, Cloud engineering, Robotics, \\& 3D Modeling and Simulation\\
  
 \end{tabular}   
 
 \end{rSection}
 
+
+\begin{rSection}{publications}
+
+\textbf{Journal Article}\\
+\begin{itemize}
+    \item El Arja, S.; Jayarathna, T.; Naik, G.; Breen, P.; Gargiulo, G. Characterisation of Morphic Sensors for Body Volume and Shape Applications. Sensors 2020, 20, 90. \href{https://www.mdpi.com/1424-8220/20/1/90}{\textcolor{red}{Paper}}
+\end{itemize}
+
+\textbf{Conference Proceeding}\\
+\begin{itemize}
+    \item S. E. Arja, T. Jayarathna, F. Ulloa, G. Gargiulo and P. Breen, "Characterization of Coated Piezo-resistive Fabric for Respiration Sensing," 2019 International Conference on Electrical Engineering Research & Practice (ICEERP), SYDNEY, Australia, 2019, pp. 1-6, doi: 10.1109/ICEERP49088.2019.8956989. \href{https://ieeexplore.ieee.org/abstract/document/8956989}{\textcolor{red}{Paper}}
+\end{itemize}
+% \textbf{Unpublished Papers}\\
+% \begin{itemize}
+%     \item Deep Convolutional Neural Network for Spatial Temporal Human Action Recognition. \href{https://github.com/samiarja/BEngThesis_ResearchPaper/blob/main/BEngThesis_ResearchPaper.pdf}{\textcolor{red}{Paper}}
+%     \item Flexible and non-invasive Morphic Sensors for measuring Electrocardiogram (ECG) signals. \href{https://github.com/samiarja/ACURConferencePaper/blob/master/ACURConference2019.pdf}{\textcolor{red}{Paper}}
+% \end{itemize}
+\end{rSection}
 %-------------------------------------------------------------------------------
 
 %	INTERNSHIP/TRAININGS 
@@ -86,21 +127,22 @@ Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altiu
 \begin{rSection}{EXPERIENCE}
 
 \begin{rSubsection}{Software Engineer Intern} {May 2019 - Present}{\faInstitution Nautitech Mining Systems Pty Ltd}{}
-\item Linux based web and desktop application development with C\# for Thermal Cameras.
-\item Database design and development using MS SQL Server.
-\item Application development for mobile devices on Android, and IOS.
-\item Video application development using raw and compressed video protocols such as H.264 and GIGe.
-\item Application development using OpenCV and other computer vision framework.
+\item Build linux based web and desktop application development with C\# for thermal Cameras.
+\item Large database design and development using MS SQL Server.
+\item Build video compression applications to convert between different protocols (e.g. GIGe, H.264).
+\item Build application using OpenCV for image processing.
+\item Develop Javascript application to visualize sensors output on the browser.
+\item Write engineering technical documentations using MS-word and latex.
 
 \end{rSubsection}
 
-\begin{rSubsection}{Lab Assistant - Electrical and Electronics} {February 2019 - Present}{\faInstitution Western Sydney University, Engineering \& Industrial Design Cluster}{}
+\begin{rSubsection}{Assistant Technical Support Officer} {February 2019 - Present}{\faInstitution Western Sydney University, Engineering \& Industrial Design Cluster}{}
 \item Assist technical officers across the electrical, electronics, Mechatronics \& Mechanical team.
 \item Assist in lab preparation for classes, basic maintenance duties, moving and managing equipment's.
 \item Supporting students in running undergrad lab equipment's.
 \end{rSubsection}
 
-\begin{rSubsection}{Undergraduate Research Scholar} {November 2018 - Present}{\faInstitution The MARCS Institute Brain, Behavior and Development}{}
+\begin{rSubsection}{Undergraduate Researcher} {November 2018 - Present}{\faInstitution The MARCS Institute Brain, Behavior and Development}{}
 \item Project: Characterisation of morphic sensors for body volume applications.
 \item Supervisors: Dr. Gaetano Garguilo and Dr. Paul Breen.
 \item Characterizations of electro-resistive fabrics band to be used in measuring human blood and respiration rate.
@@ -145,7 +187,7 @@ Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altiu
 \begin{rSection}{PROJECTS}
 
 \begin{rSubsection}{Deep Convolutional Neural Network for Spatial and Temporal 
-\\Human Action Recognition} {August 2018 - Present}{Thesis - Honour project}{}
+\\Human Action Recognition} {August 2018 - June 2019}{Thesis - Honour project (High Distinction)}{}
 
 \item Develop a software to extract spatial and temporal features from trimmed video on KTH datasets.
 \item Build 2 neural network architecture and compare their performance against the state of the art benchmark results.
@@ -153,7 +195,7 @@ Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altiu
 
 %------------------------------------------------
 
-\begin{rSubsection}{Fully Autonomous Mobile Robotics system based on Neural Network}{August 2018 - Present}{Major final year Capstone project}{} 
+\begin{rSubsection}{Fully Autonomous Mobile Robotics system based on Neural Network}{August 2018 - June 2019}{Major final year Capstone project (Distinction)}{} 
 \item Model a mobile robot platform that run on raspberry pi and arduino uno and hokuyo Lidar.
 \item Develop a software based on convolutional neural network architecture that detect and recognize traffic light and objects in real time.   
 
@@ -212,7 +254,7 @@ Software & Python, C/C++, SQL, Matlab, Solidworks, SW Visualizer, \\& ROS, Altiu
 
 \begin{itemize}
  
-\item \faTrophy \hspace{0.1cm} Top 5 at \textbf{NIARC 2018} under the supervision of Dr Gu Fang. \hfill March 2018 
+\item \faTrophy \hspace{0.1cm} Top 5 at \textbf{NIARC 2018} under the supervision of Professor Gu Fang. \hfill March 2018 
 \item \faTrophy \hspace{0.1cm} Top 25\% at \textbf{Santander Value Prediction Challenge}, a Machine
 \\Learning competition hosted by \textbf{Kaggle}.   \hfill May 2018  
 \item Leading workshop on \textbf{Introduction to Robotics and Lego Mindstorm}.
